@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="mb-3 text-center display-4">Length Converter</h1>
+            <form>
+                <div class="form-group">
+                    <input id="cmHeight" class="form-control form-control-lg" type="number"
+                           placeholder="Enter Centi-meters">
+                </div>
+            </form>
+            <div id="output">
+                <div class="card card-primary mb-2">
+                    <div class="card-block">
+                        <h4>Feets:</h4>
+                        <div id="ftHeight"></div>
+                    </div>
+                </div>
+                <div class="card card-success mb-2">
+                    <div class="card-block">
+                        <h4>Inches:</h4>
+                        <div id="inchHeight"></div>
+                    </div>
+                </div>
+                <div class="card card-danger mb-2">
+                    <div class="card-block">
+                        <h4>Meters:</h4>
+                        <div id="mtHeight"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="converter.js" charset="utf-8"></script>
+</body>
+
+</html>

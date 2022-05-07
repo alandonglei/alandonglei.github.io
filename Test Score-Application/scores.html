@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Average Test Scores</title>
+    <script>
+        var entry;
+        var average;
+        var total = 0;
+        var score = [];
+
+        for (var i = 0; i < 3; i++) {
+            entry = prompt("Enter test score");
+            entry = parseInt(entry);
+            score[i] = entry;
+            total = total + score[i];
+
+        }
+
+
+        //calculate the average
+        average = parseInt(total / 3);
+    </script>
+</head>
+<body>
+<script>
+    document.write("<h1>The Test Scores App</h1>");
+    document.write("Score 1 = " + score[0] + "<br>" +
+        "Score 2 = " + score[1] + "<br>" +
+        "Score 3 = " + score[2] + "<br><br>" +
+        "Average score = " + average + "<br><br>");
+</script>
+Thank you for using the Test Scores application!
+</body>
+</html>
